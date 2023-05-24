@@ -86,6 +86,7 @@
           <p class="mt-1 text-gray-600">{{ gempaTerbaru.Dirasakan || '-' }}</p>
         </div>
       </div>
+      <p class="mt-1 text-gray-600">Sumber Data: BMKG</p>
     </div>
     <hr>
     <div>
@@ -125,5 +126,6 @@
         <fa-icon icon="fa-solid fa-spinner" size="3x" class="animate-spin text-center mx-auto" />
       </div>
     </div>
+    <footer class="px-6 py-5 bg-gray-50">Sumber Data: <a href="https://bmkg-gempa-api.vercel.app" class="text-sky-500 hover:underline">API</a> melalui data <a href="https://data.bmkg.go.id/gempabumi" class="text-sky-500 hover:underline">BMKG</a></footer>
   </div>
 </template>
