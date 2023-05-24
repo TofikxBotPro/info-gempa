@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Readex Pro";
+	src: url('./assets/ReadexPro-Light.ttf');
+}
+* {
+	font-family: "Readex Pro", sans-serif;
+}
