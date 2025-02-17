@@ -47,7 +47,7 @@
         </div>
         <div>
           <h2 class="text-2xl font-semibold md:text-right">{{ gempaTerbaru.Magnitude }}</h2>
-          <p class="text-gray-700 md:text-right mt-1">Skala Richter</p>
+          <p class="text-gray-700 md:text-right mt-1">Skala | Tofik</p>
         </div>
       </div>
       <div class="py-4 flex gap-2 flex-wrap">
